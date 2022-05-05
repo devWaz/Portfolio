@@ -1,0 +1,328 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Courier Prime', monospace;
+}
+
+.logo {
+    width: 3.5rem;
+    height: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 7px;
+}
+
+.logo h4 {
+    margin-top: -1rem;
+}
+
+nav {
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.788);
+    position: fixed;
+    top: 0;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.navList {
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 6rem;
+}
+
+nav a:hover {
+    color: green;
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Info {
+    color: white;
+    margin-top: 5rem;
+    display: flex;
+}
+
+
+.infoText {
+    margin-top: 8rem;
+    margin-left: 2rem;
+}
+
+.infoText h1 {
+    font-size: 4rem;
+}
+
+.infoText h3 {
+    color: green;
+    font-size: 2rem;
+}
+
+.infoText p {
+    margin-top: 1rem;
+}
+
+.infoText button {
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.infoText button:hover {
+    background-color: rgb(2, 88, 2);
+}
+
+.Info img {
+    margin-left: 6rem;
+}
+
+.hire {
+    padding: .5rem 1.5rem;
+    background-color: #CCC;
+    border: none;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+.hire:hover {
+    background-color: #919191;
+}
+
+.About {
+    color: white;
+    text-align: left;
+    line-height: 1.2rem;
+    margin-bottom: 5rem;
+}
+
+.About h1 {
+    margin-bottom: 2rem;
+    color: green;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Skills {
+    color: white;
+    text-align: center;
+}
+
+.Skills h4 {
+    margin-top: -1rem;
+}
+
+.Skills h1 {
+    color: green;
+    margin-bottom: 1rem;
+    font-size: 30px;
+}
+
+.proficient {
+    margin-top: 2rem;
+}
+
+.stack {
+    display: flex;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.stack img{
+    height: 3rem;
+}
+
+.stack p{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+.stack div {
+    display: flex;
+}
+
+.stack2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.stack2 div{
+    display: flex;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.excited {
+    margin-top: 3rem;
+}
+
+.excited img {
+    height: 3rem;
+}
+
+.excited p {
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+.projects {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.projects h1 {
+    color: green;
+    text-align: center;
+    font-size: 30px;
+}
+
+.myProjects {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.portfolio,
+.landingPage,
+.nairaland {
+    width: 17rem;
+    color: white;
+    padding: 20px;
+    background-color: #1b1b1d;
+    margin: 1rem;
+}
+
+.portfolio h4 {
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+
+.livecode {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.livecode a {
+    text-decoration: none;
+    margin-right: 1rem;
+    color: #ccc;
+}
+
+.livecode a:hover {
+    color: green;
+}
+
+.landingPage h4 {
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+
+.nairaland h4 {
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+
+hr {
+    margin-bottom: 0.5rem;
+    margin-top: -0.3rem;
+}
+
+.contact h1 {
+    color: green;
+    font-size: 30px;
+    text-align: center;
+}
+
+#contact {
+    display: flex;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons img {
+    height: 2rem;
+    margin: 2rem;
+}
+
+.contactForm {
+    width: 23rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    background-color: #1b1b1da4;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+form input[type=text],
+form input[type=email] {
+    padding: 0.5rem 1rem;
+    border: none;
+    margin: 1rem;
+    width: 15rem;
+    border-bottom: 2px solid green;
+    background-color: #1b1b1d00;
+    color: white;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.devwaz {
+    color: #ccc;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width:414px){
+    .stack{
+        flex-direction: column;
+    }
+    .stack div{
+        margin-bottom: 1rem;
+    }
+}
