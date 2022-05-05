@@ -280,14 +280,14 @@ hr {
 }
 
 .contactForm {
-    width: 23rem;
-    margin-left: auto;
-    margin-right: auto;
+    width: 20rem;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
 }
 
 form {
     background-color: #1b1b1da4;
-    padding: 2rem;
     border-radius: 5px;
 }
 
@@ -297,7 +297,8 @@ form input[type=email] {
     border: none;
     margin: 1rem;
     width: 15rem;
-    border-bottom: 2px solid green;
+    border: 2px solid green;
+    border-radius: 5px;
     background-color: #1b1b1d00;
     color: white;
 }
@@ -307,10 +308,11 @@ form button {
     background-color: green;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bold;
     margin-left: 1rem;
     margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .devwaz {
