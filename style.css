@@ -325,4 +325,14 @@ form button {
     .stack div{
         margin-bottom: 1rem;
     }
+    .stack2{
+        /* margin: 0; */
+        flex-direction: column;
+        /* padding: 0; */
+    }
+
+    .stack2 div{
+        margin: 0;
+        margin-bottom: 1rem;
+    }
 }
