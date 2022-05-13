@@ -61,14 +61,12 @@ nav a:hover {
     color: white;
     margin-top: 5rem;
     display: flex;
-    border: 1px solid blue;
 }
 
 
 .infoText {
     margin-top: 8rem;
     margin-left: 2rem;
-    border: 1px solid red;
 }
 
 .infoText h1 {
@@ -101,7 +99,6 @@ nav a:hover {
 .Info img {
     margin-left: 6rem;
     height: 450px;
-    border: 1px solid green;
 }
 
 .hire {
@@ -330,9 +327,9 @@ form button {
 @media screen and (max-width:768px){
 
     .infoText {
-        margin-top: 0;
-        width: ;
-        border: 1px solid red;
+        margin-top: 5rem;
+        width: 40%;
+        margin-left: 0;
     }
 
     .infoText h1 {
@@ -342,6 +339,7 @@ form button {
     .infoText h3 {
         color: green;
         font-size: 1.5rem;
+        margin-top: 1.5rem;
     }
     
     .infoText p {
@@ -350,13 +348,13 @@ form button {
 
     .Info img {
         margin-left: 0;
-        height: 450px;}
+        height: 450px;
+        width: 60%;}
 
         .Info {
             color: white;
             margin-top: 5rem;
             display: flex;
-            border: 1px solid blue;
         }
 }
 
