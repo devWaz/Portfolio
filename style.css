@@ -213,7 +213,7 @@ nav a:hover {
 
 .portfolio,
 .landingPage,
-.nairaland {
+.calculator {
     width: 17rem;
     color: white;
     padding: 20px;
@@ -246,7 +246,7 @@ nav a:hover {
     margin-bottom: 1rem;
 }
 
-.nairaland h4 {
+.calculator h4 {
     font-size: 12px;
     margin-bottom: 1rem;
 }
