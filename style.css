@@ -159,8 +159,8 @@ nav a:hover {
 }
 
 .stack p{
-    font-size: 2rem;
-    margin-top: 5px;
+    font-size: 1.2rem;
+    margin-top: .7rem;
 }
 
 .stack div {
@@ -188,8 +188,9 @@ nav a:hover {
 }
 
 .excited p {
-    font-size: 2rem;
-    margin-top: 5px;
+    font-size: 1.22rem;
+    margin-top: .7rem;
+    margin-left: 5px;
 }
 
 .projects {
