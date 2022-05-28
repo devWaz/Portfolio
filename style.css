@@ -3,7 +3,9 @@
     margin: 0;
 }
 
-html{scroll-behavior: smooth;}
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: black;
@@ -154,11 +156,11 @@ nav a:hover {
     margin-bottom: 1rem;
 }
 
-.stack img{
+.stack img {
     height: 3rem;
 }
 
-.stack p{
+.stack p {
     font-size: 1.2rem;
     margin-top: .7rem;
 }
@@ -173,7 +175,7 @@ nav a:hover {
     margin-top: 2rem;
 }
 
-.stack2 div{
+.stack2 div {
     display: flex;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -324,63 +326,66 @@ form button {
 }
 
 /* Tab View */
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
 
     .infoText {
-        margin-top: 5rem;
-        width: 40%;
+        margin-top: 2rem;
+        /* width: 40%; */
         margin-left: 0;
     }
 
     .infoText h1 {
         font-size: 2.8rem;
     }
-    
+
     .infoText h3 {
         color: green;
         font-size: 1.5rem;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
     }
-    
+
     .infoText p {
         margin-top: 1rem;
     }
 
     .Info img {
-        margin-left: 0;
+        margin-left: 10rem;
         height: 450px;
-        width: 60%;}
+    }
 
-        .Info {
-            color: white;
-            margin-top: 5rem;
-            display: flex;
-        }
+    .Info {
+        color: white;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        display: flex;
+    }
 }
 
 
 /* Mobile View */
-@media screen and (max-width:414px){
-    .stack{
-        flex-direction: column;
-    }
-    .stack div{
-        margin-bottom: 1rem;
-    }
-    .stack2{
+@media screen and (max-width:425px) {
+    .stack {
         flex-direction: column;
     }
 
-    .stack2 div{
+    .stack div {
+        margin-bottom: 1rem;
+    }
+
+    .stack2 {
+        flex-direction: column;
+    }
+
+    .stack2 div {
         margin: 0;
         margin-bottom: 1rem;
     }
 
-    .Info{
+    .Info {
         flex-direction: column-reverse;
     }
 
-    .Info img{
+    .Info img {
         margin: 0;
         height: 370px;
     }
@@ -388,34 +393,34 @@ form button {
     .infoText {
         margin: 0;
     }
-    
+
     .infoText h1 {
         font-size: 2rem;
     }
-    
+
     .infoText h3 {
         color: green;
         font-size: 1rem;
         margin-top: 0.7rem;
     }
-    
+
     .infoText p {
-        margin:0;
+        margin: 0;
         margin-top: 0.7rem;
     }
 
-    .About h1{
+    .About h1 {
         margin-top: 2rem;
     }
 
-    .navList{
+    .navList {
         margin: 0;
         padding-top: .2rem;
     }
 
-    nav .navList a{
+    nav .navList a {
         margin: 0;
-        margin-left: 1rem;
+        margin-left: 3rem;
         margin-right: 2rem;
         line-height: 1.5rem;
     }
